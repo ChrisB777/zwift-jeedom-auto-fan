@@ -1,0 +1,1 @@
+# zwift-jeedom-auto-fan
