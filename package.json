@@ -1,0 +1,27 @@
+{
+  "name": "zwift-jeedom-auto-fan",
+  "version": "0.0.1",
+  "description": "Control Fan speed from Zwift data with Jeedom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ChrisB777@github.com/ChrisB777/zwift-jeedom-auto-fan.git"
+  },
+  "keywords": [
+    "Zwift",
+    "Jeedom",
+    "Fan"
+  ],
+  "author": "ChrisB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisB777/zwift-jeedom-auto-fan/issues"
+  },
+  "homepage": "https://github.com/ChrisB777/zwift-jeedom-auto-fan#readme",
+  "dependencies": {
+    "zwift-mobile-api": "^0.2.5"
+  }
+}
