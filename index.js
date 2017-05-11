@@ -27,7 +27,8 @@ try{
     console.log('Getting your profile ...');
     // Get profile for "me"
     account.getProfile().profile().then(p => {
-        // console.log(p);  // JSON of rider profile (includes id property you can use below)
+		// console.log(p);  // JSON of rider profile (includes id property you can use below)
+		// process.exit(12);
 	    playerId = p.id;
 
 		console.log('Your id: '+playerId);
@@ -87,6 +88,7 @@ try{
 										setJeedomValue(config.jeedom.set.id_speed, speed);
 										setJeedomValue(config.jeedom.set.id_power, power);
 										setJeedomValue(config.jeedom.set.id_heart, heartrate);
+										setJeedomValue(config.jeedom.set.id_touch, 1);
 									}
 									
 									//console.log(status); // JSON of rider status

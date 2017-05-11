@@ -16,7 +16,8 @@
 			"id_cadence":0,
 			"id_speed":0,
 			"id_power":0,
-			"id_heart":0
+			"id_heart":0,
+		  	"id_touch":0
 		}
 	},
 	"pooling_pc":60,
