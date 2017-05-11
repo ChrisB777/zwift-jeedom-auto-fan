@@ -1,4 +1,24 @@
 {
-	"username":"",
-	"password":""
+	"zwift":{
+		"username":"",
+		"password":""
+	},
+	"jeedom":{
+		"url":"http://my.jeedom.url:port",
+		"apikey":"myAPIkey",
+		"get":{
+			"type":"cmd",
+			"id_power_pc":0
+		},
+		"set":{
+			"type":"virtual",
+			"id_riding":0,
+			"id_cadence":0,
+			"id_speed":0,
+			"id_power":0,
+			"id_heart":0
+		}
+	},
+	"pooling_pc":60,
+	"pooling_status":60
 }
